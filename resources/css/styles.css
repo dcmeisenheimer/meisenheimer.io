@@ -2,6 +2,7 @@
 body{
     font-family: "Lora", sans-serif;
     margin: 0px;
+    background-color: #f1f1f1;
 }
 
 .container {
@@ -167,4 +168,11 @@ body{
 .project-label h1{
     padding-left: 35px;
     padding-bottom: 0%;
+    color: #aaaaaa;
+}
+
+.card{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
