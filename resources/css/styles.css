@@ -69,6 +69,13 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* Hide project label */
+.mobile-one, .mobile-two, .mobile-three, .mobile-four, .mobile-five{
+    visibility: hidden;
+    clear: both;
+    display: none;
+}
+
 /* for mobile devices */
 @media only screen and (max-width: 600px) {
   .portfolio-items-wrapper {
@@ -89,6 +96,19 @@ body{
   .container{
     max-width: 100%;
     width: 100%;
+    padding-bottom: 10px;
+  }
+  .one, .two, .three, .four, .five{
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+  .mobile-one, .mobile-two, .mobile-three, .mobile-four, .mobile-five{
+    visibility:visible;
+    clear: none;
+    display:inline;
+  }
+  .mobile-space{
     padding-bottom: 10px;
   }
 }
