@@ -107,6 +107,10 @@ body{
     visibility:visible;
     clear: none;
     display:inline;
+    text-shadow: 0px 1px 1px rgba(255,255,2555,0.75), 0px -1px 1px rgba(0,0,0,.75);
+    color: #999;
+    padding: 7px;
+    text-transform:uppercase;
   }
   .mobile-space{
     padding-bottom: 10px;
